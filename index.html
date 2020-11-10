@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2@2.0.0/dist/spectrum.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body onload="init()">
+  <div class="kontrol" onload="readStorage()">
+    <div class="panah"></div>
+    <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="customRadio0" name="example1" checked>
+        <label class="custom-control-label" for="customRadio0">Time Based</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio2" name="example1">
+      <label class="custom-control-label" for="customRadio2">Dawn</label>
+    </div> 
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio3" name="example1">
+      <label class="custom-control-label" for="customRadio3">Morning</label>
+    </div> 
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio4" name="example1">
+      <label class="custom-control-label" for="customRadio4">Noon</label>
+    </div> 
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio5" name="example1">
+      <label class="custom-control-label" for="customRadio5">Afternoon</label>
+    </div> 
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio6" name="example1">
+      <label class="custom-control-label" for="customRadio6">Sunset</label>
+    </div> 
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio7" name="example1">
+      <label class="custom-control-label" for="customRadio7">Evening</label>
+    </div> 
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio8" name="example1">
+      <label class="custom-control-label" for="customRadio8">Midnight</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio9" name="example1">
+      <label class="custom-control-label" for="customRadio9">RGB</label>
+    </div> 
+  </div>
+  <div class="bg ubuntu"></div>
+  <div class="bg dawn"></div>
+  <div class="bg morning"></div>
+  <div class="bg noon"></div>
+  <div class="bg afternoon"></div>
+  <div class="bg sunset"></div>
+  <div class="bg evening"></div>
+  <div class="bg midnight"></div>
+  <div class="bg red"></div>
+  <div class="bg green"></div>
+  <div class="bg blue"></div>
+  <p id="headline" class="tes2">H+1 Ulang Tahun Suha</p>
+  <audio src="audio.mp3" id="my_audio" loop="loop"></audio>
+  <div class="container">
+    <ul class="kotak">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="bulat">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div id="time" class="curr"></div>
+    <div class="hitung" id="countdown"></div>
+    <div class="pesan" id="kata">
+    </div>
+    <div class="tes1"></div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2@2.0.0/dist/spectrum.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
