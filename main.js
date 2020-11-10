@@ -381,7 +381,7 @@ function startTime() {
 	S=s;
 
 
-  var birthday = "Nov 10, 2020 17:55:00";
+  var birthday = "Nov 11, 2020 00:00:00";
   countDown = new Date(birthday).getTime();
   
 
@@ -419,7 +419,7 @@ function startTime() {
      
 
       kata.innerHTML = "HBD NJENG :)"+"<br/>"
-      +"<img src='ppp2.jpg' /width='200px' height='250px' style='margin-left:100px'></img>";
+      +"<img src='ppp2.jpg' width='200px' height='250px' style='margin-left:100px'></img>";
       
 
       
